@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Bolivares</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+			background-image: url('https://www.consumer.es/app/uploads/2016/10/conversor-divisas.jpg');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+			text-align: center;
+        }
+        
+        .container {
+            background-color: black;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			border: 1px solid #AAAAAA;
+        }
+        
+        h1 {
+            color: #fff;
+			text-align: center;
+        }
+        
+        form {
+            margin-top: 20px;
+		
+			
+        }
+        
+        input[type="text"], input[type="submit"] {
+            padding: 10px;
+            font-size: 16px;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Bolivares</h1>
+        <form method="post" action="conversor.php">
+            <input type="text" name="bolivares" placeholder="Cantidad de Bolivares" required>
+            <br><br>
+            <input type="text" name="dolar" placeholder="Precio del Dolar" required>
+            <br><br>
+            <input type="submit" value="Convertir">
+			
+			
+			
+			   
+	
+
+				
+
+        </form>
+    </div>
+</body>
+</html>
